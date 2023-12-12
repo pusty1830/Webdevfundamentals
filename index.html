@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>WebDevfundamentals</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header class="navbar">
+        <div class="navmenu">
+            <div class="left">
+                <h3>Calculator Fundamentals</h3>
+            </div>
+            <div class="right">
+                <ul class="ul">
+                    <li><a href="/">Home</a></li>
+                    <li><a href="#">About</a></li>
+                    <li><a href="#">Content</a></li>
+                </ul>
+            </div>
+        </div>
+    </header>
+    <main >
+      <div id="react-root">
+        <form >
+            <h3 class="name">Sum Calculator</h3>
+            <div class="input1input">
+                <label for="">Enter the first number:</label><br/>
+                <input type="text" id="num1" class="input1" placeholder="Enter the first number">
+
+            </div>
+            <div class="input2input">
+                <label for="">Enter the second number:</label><br/>
+                <input type="text" class="input2" id="num2" placeholder="Enter the second number">
+            </div>
+            <button class="btn" id="submit">Sum</button>
+            <div class="res">
+                <label >The Sum is:</label><br/>
+                <input type="text" class="result" id="sumresult" placeholder="The sum is" readonly>
+            </div>
+        </form>
+      </div>
+    </main>
+    <footer class="footer">
+            <div class="waves">
+              <div class="wave" id="wave1"></div>
+              <div class="wave" id="wave2"></div>
+              <div class="wave" id="wave3"></div>
+              <div class="wave" id="wave4"></div>
+            </div>
+            
+            <ul class="menu">
+              <li class="menuitem"><a class="menulink" href="/">Home</a></li>
+              <li class="menuitem"><a class="menulink" href="#">About</a></li>
+              <li class="menuitem"><a class="menulink" href="#">Contact</a></li>
+        
+            </ul>
+            <p>&copy;2023 Calculator | All Rights Reserved</p>
+          
+    </footer>
+    <script src="index.js"></script>
+</body>
+</html>
